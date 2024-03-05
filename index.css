@@ -1,3 +1,66 @@
-#heading {
-  color: red;
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.logo {
+  width: 100px;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px;
+  box-shadow: 0 15px 40px -20px rgba(40, 44, 63, 0.15);
+}
+.nav-items ul {
+  display: flex;
+  list-style: none;
+}
+.nav-items ul li {
+  font-size: 20px;
+  padding: 0px 25px;
+}
+.filter-container {
+  margin: 20px 70px;
+}
+.filter-btn {
+  color: #fff;
+  background-color: #3e4152;
+  border-radius: 15px;
+  padding: 5px 15px;
+  font-size: 18px;
+}
+.restaurent-card {
+  width: 250px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  box-shadow: 0 15px 100px 5px rgba(40, 44, 63, 0.15);
+}
+.restaurent-card {
+  transition: transform 0.9s;
+}
+.restaurent-card:hover {
+  transform: scale(0.9);
+  cursor: pointer;
+}
+.res-description {
+  padding: 10px;
+}
+.res-description h3 {
+  font-size: 18px;
+}
+.res-description h2 {
+  font-size: 22px;
+}
+.res-img {
+  width: 100%;
+  border-radius: 15px;
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0px;
+  justify-content: center;
+  gap: 15px;
 }
