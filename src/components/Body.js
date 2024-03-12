@@ -33,7 +33,7 @@ const Body = () => {
           src="https://giphy.com/embed/wvtt4mtViPOSrLYNFh"
           width="200"
           height="200"
-          class="giphy-embed"
+          className="giphy-embed"
           allowFullScreen
         ></iframe>
         <a href="https://giphy.com/gifs/music-loading-colkie-wvtt4mtViPOSrLYNFh"></a>
